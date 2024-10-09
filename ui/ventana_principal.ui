@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>329</width>
+    <width>263</width>
     <height>199</height>
    </rect>
   </property>
@@ -109,7 +109,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>329</width>
+     <width>263</width>
      <height>22</height>
     </rect>
    </property>
@@ -122,14 +122,14 @@
    <sender>boton_buscar_actor</sender>
    <signal>clicked()</signal>
    <receiver>Ventana_principal</receiver>
-   <slot>buscar_actores()</slot>
+   <slot>_VentanaPrincipal__buscar_peliculas_por_actores()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>272</x>
+     <x>253</x>
      <y>161</y>
     </hint>
     <hint type="destinationlabel">
-     <x>321</x>
+     <x>249</x>
      <y>133</y>
     </hint>
    </hints>
@@ -138,21 +138,21 @@
    <sender>boton_buscar_pelicula</sender>
    <signal>clicked()</signal>
    <receiver>Ventana_principal</receiver>
-   <slot>buscar_peliculas()</slot>
+   <slot>_VentanaPrincipal__buscar_peliculas()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>287</x>
+     <x>253</x>
      <y>68</y>
     </hint>
     <hint type="destinationlabel">
-     <x>319</x>
+     <x>249</x>
      <y>53</y>
     </hint>
    </hints>
   </connection>
  </connections>
  <slots>
-  <slot>__buscar_actores()</slot>
-  <slot>__buscar_peliculas()</slot>
+  <slot>_VentanaPrincipal__buscar_peliculas_por_actores()</slot>
+  <slot>_VentanaPrincipal__buscar_peliculas()</slot>
  </slots>
 </ui>

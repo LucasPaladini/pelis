@@ -23,7 +23,7 @@ class Ui_Ventana_principal(object):
     def setupUi(self, Ventana_principal):
         if not Ventana_principal.objectName():
             Ventana_principal.setObjectName(u"Ventana_principal")
-        Ventana_principal.resize(329, 199)
+        Ventana_principal.resize(263, 199)
         self.centralwidget = QWidget(Ventana_principal)
         self.centralwidget.setObjectName(u"centralwidget")
         self.gridLayout = QGridLayout(self.centralwidget)
@@ -78,14 +78,14 @@ class Ui_Ventana_principal(object):
         Ventana_principal.setCentralWidget(self.centralwidget)
         self.menubar = QMenuBar(Ventana_principal)
         self.menubar.setObjectName(u"menubar")
-        self.menubar.setGeometry(QRect(0, 0, 329, 22))
+        self.menubar.setGeometry(QRect(0, 0, 263, 22))
         Ventana_principal.setMenuBar(self.menubar)
         self.statusbar = QStatusBar(Ventana_principal)
         self.statusbar.setObjectName(u"statusbar")
         Ventana_principal.setStatusBar(self.statusbar)
 
         self.retranslateUi(Ventana_principal)
-        self.boton_buscar_actor.clicked.connect(Ventana_principal._VentanaPrincipal__buscar_peliculas_actores)
+        self.boton_buscar_actor.clicked.connect(Ventana_principal._VentanaPrincipal__buscar_peliculas_por_actores)
         self.boton_buscar_pelicula.clicked.connect(Ventana_principal._VentanaPrincipal__buscar_peliculas)
 
         QMetaObject.connectSlotsByName(Ventana_principal)

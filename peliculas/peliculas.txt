@@ -3,7 +3,7 @@
         "poster": "los_vengadores.png",
         "titulo": "Los Vengadores",
         "sinopsis": "Un grupo de heroes se une para formar los Vengadores y detener a Loki y su ejercito de Chitauri.",
-        "actores": ["Robert Downey Jr.", "Chris Evans", "Scarlett Johansson"],
+        "actores": ["Lucas", "Alan", "Robert Downey Jr.", "Chris Evans", "Scarlett Johansson"],
         "puntuacion": 8.0
     },
     {
